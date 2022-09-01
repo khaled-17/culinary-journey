@@ -9,16 +9,24 @@
 
     </head>
     <body>
-        <header >
-            <div class="topnav">
- 
-                <a class="active" href="# ">thos</a>
-                <a href="#" class="split">blog</a>
-                <a href="#contact" class="split">shop</a>
+
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+
+
+        <header  >
+            <div class="topnav"  id="myHeader">
+                <a class="active" href="#">thos</a>
+                <a href="#about" class="split">   shopping bag(0)</a>
                 <a href="#about" class="split">contact</a>
-                <a href="#about" class="split"> <i class="material-icons">shopping_cart</i>
-                    shopping bag(0)</a>
-              </div>       
+                <a href="#contact" class="split">shop</a>
+                <a href="#" class="split">blog</a>
+              </div>  
+              
+              
+
+
+
           </header>
           <main>
             <div class="first">
@@ -138,6 +146,50 @@
             
 
 </footer>
+
+
+
+<script>
+    // https://www.w3schools.com/howto/howto_js_sticky_header.asp
+    // When the user scrolls down 50px from the top of the document, resize the header's font size
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+        document.getElementById("header").style.fontSize = "30px";
+      } else {
+        document.getElementById("header").style.fontSize = "90px";
+      }
+    }
+    // https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 300) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+
+
+
+
+
+
+
+    </script>
 
     </body>
 </html>

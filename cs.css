@@ -5,7 +5,7 @@
 }
 body{
 
-margin: 500px;
+  margin: 0;
 
 }
 
@@ -34,31 +34,35 @@ body{
 }
 
 
-  .topnav{
+.topnav {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%
+ }
 
-    overflow: hidden;
-
-    background-color:azure;
-  }
- 
-
-  .topnav a{
+  .topnav a {
     float: left;
+    color: #f2f2f2;
     text-align: center;
-
+    padding: 14px 16px;
     text-decoration: none;
-    padding: 19PX 19PX;
-    font-size: 20px;
- 
+    font-size: 17px;
   }
 /* SPLIT THE right aline  */
 
-.topnav a.split{
-float: right;
+.topnav a.split {
+  float: right;
+   color: rgb(0, 0, 0);
+}
+
+
+.topnav .active{
+  font-size: 36px;
+  color: rgb(0, 0, 0);
 
 
 }
-
 
 
 
@@ -110,4 +114,19 @@ padding: 20px;
 .column{
    
 
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 25px;
+  right: 30px;
+   font-size: 18px;
+   background-color: rgb(245, 147, 147);
+  color: white;
+   padding: 15px;
+  border-radius: 4px;
+}
+#myBtn:hover {
+  cursor: pointer;
+  background-color: #333;
 }
