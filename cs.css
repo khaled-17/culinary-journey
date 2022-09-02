@@ -1,7 +1,6 @@
  
 *{
-   border: 1px   ;
-
+  border: .3px solid red;
 }
 body{
 
@@ -18,13 +17,47 @@ a{
 
 img{
  
-  max-width: 100%;
-  height: 350px;
-  margin: 40px;
+   height: 350px;
+  margin: 1px;
   }
+
+  figure {
+     padding: 27px;
+    margin: auto;
+  }
+
+
+  figcaption {
+     color: black;
+    font-style: italic;
+    padding: 1px;
+   }
+
+   button{
+    padding: 14px  29px;
+    color: white;
+    background-color: #232323;
+
+   }
+   .div_button{
+    margin-top: 40px;
+
+margin-bottom: 150px;
+
+
+
+   }
+
+
+
+
+
+
+
+
  h3{
-font-size: x-large;
- }
+  font-size:25px;
+}
  
 
 
@@ -64,7 +97,11 @@ body{
 
 }
 
+.main h1{
 
+padding:  40px;
+
+}
 
 
 
@@ -82,12 +119,12 @@ body{
  }
  .main{
  
-    padding: 20px;
+    padding: 15px;
      font-size:3vw;
      min-width: 60px;
      text-align: center;
-     width: 40%;
-     margin-top: 210px;
+     width: 70%;
+     margin-top: 20px;
      margin-left: auto;
      margin-right: auto;
  }
@@ -113,10 +150,41 @@ body{
  
 
 }
-.column{
-   
 
+.contener_book{
+
+  display: flex;
+
+  /* The flex-flow property is a shorthand property for setting both the flex-direction and flex-wrap properties. */
+
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+ 
+height: 700px;
+background-color: #F2EDEB;
+font-size: 30px;
 }
+
+.contener_book figcaption {
+  height: 500px;
+width: 300px;
+
+  
+}
+.contener_book figcaption button{
+  margin-bottom: 40px;
+}
+
+.contener_book img{
+
+height: 500px;
+}
+
+
+
+
+
 #myBtn {
   display: none;
   position: fixed;
@@ -132,3 +200,4 @@ body{
   cursor: pointer;
   background-color: #333;
 }
+
