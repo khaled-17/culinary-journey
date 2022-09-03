@@ -1,6 +1,5 @@
  
 *{
-  border: .3px solid red;
   color: #232323;
 }
 body{
@@ -182,7 +181,7 @@ padding: 10px;
 }
 .contener_book div button{
   margin-bottom: 40px;
-  font-size:16px;
+  font-size:25px;
 font-weight: 900;
 
 }
@@ -201,6 +200,28 @@ width: 400px;
   padding: 30px;
 
 }
+.Instagram{
+  border: .3px solid red;
+
+height: 900px;
+text-align: center;
+  font-size: 30px;
+   
+}
+  .Instagram h1{
+    padding:  9%;
+
+
+  }
+.Instagram_img{
+  margin: 109x;
+
+ display: flex;
+justify-content: space-evenly;
+
+}
+
+
 
 
 #myBtn {
