@@ -1,6 +1,7 @@
  
 *{
   border: .3px solid red;
+  color: #232323;
 }
 body{
 
@@ -34,22 +35,27 @@ img{
    }
 
    button{
-    padding: 14px  29px;
+    padding: 19px  40px;
     color: white;
     background-color: #232323;
 
    }
    .div_button{
-    margin-top: 40px;
-
-margin-bottom: 150px;
+    margin-top: 80px;
+    margin-bottom: 99px;
 
 
 
    }
 
+   .button {
+    margin: auto;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  
 
-
+   }
 
 
 
@@ -158,7 +164,7 @@ padding:  40px;
   /* The flex-flow property is a shorthand property for setting both the flex-direction and flex-wrap properties. */
 
   flex-flow: row wrap;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
  
 height: 700px;
@@ -166,23 +172,35 @@ background-color: #F2EDEB;
 font-size: 30px;
 }
 
-.contener_book figcaption {
+.contener_book div {
+  
   height: 500px;
-width: 300px;
-
+width: 600px;
+font-size: large;
+padding: 10px;
   
 }
-.contener_book figcaption button{
+.contener_book div button{
   margin-bottom: 40px;
+  font-size:16px;
+font-weight: 900;
+
 }
 
 .contener_book img{
-
+padding-right: 120px;
 height: 500px;
 }
+.contener_book h3{
+font-size: 30px;
+width: 400px;
 
+}
+ 
+.contener_book p{
+  padding: 30px;
 
-
+}
 
 
 #myBtn {
