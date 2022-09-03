@@ -1,6 +1,9 @@
  
 *{
-  color: #232323;
+  color: hsl(0, 0%, 14%);
+  Padding: 0;
+Margin:0;
+
 }
 body{
 
@@ -33,12 +36,21 @@ img{
     padding: 1px;
    }
 
-   button{
+   button {
     padding: 19px  40px;
     color: white;
     background-color: #232323;
 
    }
+
+   input[type=submit]{
+    padding: 19px  40px;
+    color: white;
+    background-color: #232323;
+font-size: large;
+   }
+
+
    .div_button{
     margin-top: 80px;
     margin-bottom: 99px;
@@ -201,7 +213,6 @@ width: 400px;
 
 }
 .Instagram{
-  border: .3px solid red;
 
 height: 900px;
 text-align: center;
@@ -220,6 +231,60 @@ text-align: center;
 justify-content: space-evenly;
 
 }
+.contener_email{
+  display: flex;
+  flex-direction: column;
+  /* The flex-flow property is a shorthand property for setting both the flex-direction and flex-wrap properties. */
+   justify-content: space-evenly;
+  align-items: center;
+ 
+   
+  
+height: 650px;
+background-color: #F2EDEB;
+font-size: 30px;
+
+   }
+
+ 
+
+.contener_email [type="email"] {
+width: 500px;
+height: 50px;
+
+
+}
+.contener_email div>*{
+  display: flex;
+  flex-direction: column;
+ 
+  border: .3px solid red;
+width: 500px;
+  Margin:90px;
+
+}
+
+  label {
+    display: block;
+   }
+   .flex-container {
+    display: flex;
+    justify-content: center;
+    background-color: DodgerBlue;
+  }
+  
+  .flex-container > svg {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+  
+   
+
+
 
 
 
