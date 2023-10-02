@@ -237,11 +237,15 @@ text-align: center;
   }
 .Instagram_img{
   margin: 109x;
-
  display: flex;
+ 
 justify-content: space-evenly;
 
 }
+
+
+
+
 .contener_email{
   display: flex;
   flex-direction: column;
